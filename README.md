@@ -85,6 +85,8 @@ Dans cette partie on s'assure de la disponibilité de l'application et sa perfor
 - Augmentation de l'efficacité
 - Meilleure utilisation des ressources
 - Automatisation accrue pour réduire le nombre d'erreur humaine
+- 
+##  PRATIQUES DEVOPS
 
 ### Collaboration
 
@@ -92,7 +94,19 @@ Pour tirer profit de cette méthode il va falloir une bonne collaboration entre 
 
 ### Automatisation
 
-Le but de l'automatisation est de réduire l'erreur humaine, réduire la charge de travail pour se concentrer sur d'autres fonctionnalités
+Le but de l'automatisation est de 
+- Réduire l'erreur humaine
+- Permettre la reproductibilité sur tous les serveurs
+- Réduire la charge de travail pour se concentrer sur d'autres fonctionnalités ( Productivité)
+- Permettre le self-service
+
+### Intégration continue( CI)
+C'est la phase de planification et de codage.
+Dans cette étape après développement, le code est poussé sur le serveur de subversion (par exple Gitlab) ce dernier sera compilé et intégré pour validation. Les erreurs pourront être vérifiées et une alerte sera transmise pour signaler d'éventuels problèmes.
+
+outils utilisés: 
+- Intégration de code : Git
+- Intégration automatique: Jenkins, Gitlab ci
 
 
 source: [netapp](https://www.netapp.com/fr/devops-solutions/what-is-devops/)
