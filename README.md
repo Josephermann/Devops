@@ -108,5 +108,17 @@ outils utilisés:
 - Intégration de code : Git
 - Intégration automatique: Jenkins, Gitlab ci
 
+## Tests continus
+
+Cette étape prévoidt des tests automatisés, planifiés et continus l'envoi ou de la mise à jour du code de l'application.
+L'objectif ici sera de faire plusieurs tests
+- Tests unitaires : pour le bon fonctionnement des differentes fonctions de notre code ou de l'application.
+outils : Junit,...
+- Tests de deploiement de l'application pour s'assurer que tout fonctionne correctement sur  un environnement similaire à l'environnement de prod afin d'éviter les phrases du genre **mais ça marche sur mon poste merd**
+outils :Ansible,...
+- Test de validation suite au déploiement
+outils : selenium,...
+
+
 
 source: [netapp](https://www.netapp.com/fr/devops-solutions/what-is-devops/)
